@@ -5,10 +5,10 @@ const checkPalindrome = (str) => {
     // even if we reverse it will still be true, but this won't be true for 'hello' as when we reverse it will be 'olleh'
     // which is not true for 'hello' as a palindrome
     if(str1 === str){
-        console.log(`${str} is a palindrome`);
+        console.log(`'${str}' is a palindrome`);
     } 
     else{
-        console.log(`${str} is not a palindrome`);
+        console.log(`'${str}' is not a palindrome`);
     }
 }
 // This calls the function and passes the string as an argument, which in our case is 'madam'
